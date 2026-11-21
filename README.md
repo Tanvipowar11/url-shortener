@@ -296,6 +296,7 @@ Because links expire after 30 days by default, Redis memory stays bounded.
 | `429 Too Many Requests` | Wait for the number of seconds in `Retry-After`, or raise the limit in `application.yml` |
 | Changes not showing in Docker | Rebuild with `docker compose up --build -d` |
 
+ 
 ## License
 
-MIT, or choose your own license.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file.
