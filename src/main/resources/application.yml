@@ -10,3 +10,7 @@ spring:
 shortener:
   base-url: ${SHORTENER_BASE_URL:http://localhost:8080}
   default-ttl: 30d
+  rate-limit:
+    enabled: true
+    shorten-per-minute: 10     # POST /api/v1/shorten, per IP
+    redirect-per-minute: 120   # all GET requests, per IP
